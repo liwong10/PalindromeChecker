@@ -30,13 +30,6 @@ public boolean palindrome(String word)
   word=Trevor;
 
 
-    String elbow=new String();
-  for (int i=0; i<word.length(); i++){
-  if (!(word.substring(i,i+1).equals(" ")))
-  elbow=elbow+word.substring(i,i+1);
-  }
-  word=elbow;
-
     String noPunc= new String();
   for (int i=0; i<word.length(); i++){
     if ((Character.isLetter(word.charAt(i))==true))
